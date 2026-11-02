@@ -62,8 +62,8 @@ eval "$(zoxide init zsh --cmd cd)"
 # ssh
 alias sshcheck="ssh -T git@github.com"
 
-export UV_INDEX_URL="https://mirrors.sustech.edu.cn/pypi/simple"
-export PIP_INDEX_URL="https://mirrors.sustech.edu.cn/pypi/simple"
+export UV_DEFAULT_INDEX="https://mirrors.sustech.edu.cn/pypi/web/simple"
+export PIP_INDEX_URL="$UV_DEFAULT_INDEX"
 
 # fzf
 eval "$(fzf --zsh)"
