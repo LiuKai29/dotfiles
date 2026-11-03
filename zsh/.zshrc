@@ -43,7 +43,7 @@ zstyle ':fzf-tab:complete:*:*' fzf-preview 'bat -n --color=always ${(Q)realpath}
 zstyle ':completion:*:git-checkout:*' sort false
 
 # 语法高亮
-zinit ice wait lucid atload'fast-theme XDG:catppuccin-fish'
+zinit ice wait lucid 
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 
